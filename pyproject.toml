@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "parcial-game"
+version = "0.1.0"
+description = ""
+authors = ["Crhistian Caraballo <cristianjcj35@gmail.com>"]
+readme = "README.md"
+packages = [{include = "parcial_game"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
